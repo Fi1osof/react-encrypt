@@ -87,6 +87,7 @@ export default class ReactEncryptProvider extends Component{
   render() {
 
     const {
+      encryptKey,
       children,
       ...other
     } = this.props;
